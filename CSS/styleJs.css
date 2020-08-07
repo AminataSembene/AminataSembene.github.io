@@ -1,0 +1,129 @@
+*
+{
+    padding: 0;  
+    padding: 0;  
+}
+  body
+  {
+    box-sizing: border-box;
+  background-image: url(../image/roul2.jpg);
+  background-size: cover; 
+  background-position: center;  
+  font-family: sans-serif;
+}
+
+#image{
+  margin: 0;
+}
+
+li{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin: auto 33px auto 33px;
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+.image
+{
+width: 100%; 
+height:100% ; 
+overflow: hidden;
+text-align: center;
+z-index: auto;
+margin-bottom: -5px;
+}
+.menu-bar
+{
+background-color: black;
+    text-align: center;
+    
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color:black;
+}
+.menu-bar li
+{
+width: 120px;
+margin:0px;
+padding:5px;
+}
+.menu-barul li a
+{
+ text-decoration: none;
+ color:rgb(12, 12, 12);
+
+}
+.active,.menu-bar ul li:hover
+{
+    background:white;
+    border-radius: 3px;
+}
+#bn{
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1{
+ display: flex ;
+ justify-content: center;
+  font-size: 25px;
+  margin-top:25px;
+  text-decoration-style: dashed;
+  color: black;
+}
+
+#image{
+
+  margin-left:auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+}
+
+
+h4{
+  text-align: center;
+  color:white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  margin-top: 0px;
+}
+.bq{
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  margin: 1% 1% 1% 1%;
+  text-align: center;
+  background-color: rgb(12, 12, 12);
+ 
+  
+
+}
+
+:hover{
+  
+  color:red
+}
+
+p.bp{
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  margin: 1% 1% 1% 1%;
+  text-align: center;
+}
+
+#jeu{
+  background: white;
+  width: 120px;
+  margin:0px;
+  padding:5px;
+}
+

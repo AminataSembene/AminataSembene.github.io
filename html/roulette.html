@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/roulette.css">
+    <title>roulette</title>
+</head>
+<body>
+    <div id="regle">
+        <h1>REGLE DU JEUX DE LA ROULETTE</h1>
+        <p> Les regles du jeux de le roulette sont simple </p>
+        <p>• Si l'ordinateur tire 0, la mise est perdue .
+            <p>• Si l'ordinateur tire le numéro du joueur, il rend la mise plus 35 fois sa valeur.</p>
+        <p> • Si l'ordinateur tire un numéro pair et que l'on a choisi « Pair », il rend la mise plus 1 fois sa valeur. Même chose avec les impairs.</p>
+            <p>• Dans tous les autres cas, la mise est perdue</p>
+        <h1>A VOUS DE JOUER</h1>
+    </div>
+    <div><p>parite du nombre sera:</p> <select name="parite">
+        <option value="pair">paire</option>
+        <option value="impair">impair</option>
+    </select>
+    <div>
+        <p>choisissez un nombre de 1 a 36 </p><input name="mystere" type="number" min="1" max="36">
+        </div>
+        <div>
+        <p>le montant de la mise en millier de franc</p><input name="mise" type="number" min="1">
+    </div>
+    <div>
+        <p id="gain">votre gain est de 100000frcfa</p>
+        <p id="perte">votre perte est de 0fr</p> 
+    </div>
+        <br>
+    <div id="center">
+        <button id="go">GO!</button> 
+ </div>
+        <script src="../Js/roulette.js"></script>
+
+      
+        <div>
+            <div >
+                <p class="bq">BONNE CHANCE</p>
+            
+            </div>
+        </div>
+       
+    </div> 
+
+</body>
+</html>
